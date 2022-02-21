@@ -9,7 +9,7 @@ const config = {
 
     pic: "", //image url of recipients (Mandatory)
 
-    showScrollMsg: true, // set to false if you do not want the scrolling message
+    showScrollMsg: false, // set to false if you do not want the scrolling message
 };
 
 if(config.name) {
@@ -176,7 +176,7 @@ button.addEventListener("click",function(){
             return;
         }
 
-        document.querySelector(".HBD").textContent = "May your soul rest in peace";
+        document.querySelector(".HBD").textContent = "A very Happy Birthday to you";
 
         frames[1].style.display = "flex";
 
