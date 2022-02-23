@@ -141,6 +141,7 @@ button.addEventListener("click",function(){
         */
         
         door.play();
+        haunt.pause();
         transition(hallway);
         CTAtext.innerHTML = "Click the Gift";
         setTimeout(function() {
@@ -159,7 +160,6 @@ button.addEventListener("click",function(){
             the message frame fades away and the card appears.
         */
        
-        haunt.pause();
         blast.play();
         giftroom.style.display = "none";
         transition(flash);
@@ -172,7 +172,7 @@ button.addEventListener("click",function(){
             setTimeout(() => {
                 frames[0].classList.add("appear");
                 frames[0].style.opacity = "1";
-            }, 1500);
+            }, 2000);
             return;
         }
 
