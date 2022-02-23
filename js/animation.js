@@ -141,8 +141,8 @@ button.addEventListener("click",function(){
         */
         
         door.play();
-        haunt.pause();
         transition(hallway);
+        haunt.pause();
         CTAtext.innerHTML = "Click the Gift";
         setTimeout(function() {
             button.classList.add("gift");
@@ -172,7 +172,7 @@ button.addEventListener("click",function(){
             setTimeout(() => {
                 frames[0].classList.add("appear");
                 frames[0].style.opacity = "1";
-            }, 2000);
+            }, 3000);
             return;
         }
 
