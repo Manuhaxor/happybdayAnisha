@@ -172,7 +172,7 @@ button.addEventListener("click",function(){
             setTimeout(() => {
                 frames[0].classList.add("appear");
                 frames[0].style.opacity = "1";
-            }, 3000);
+            }, 1000);
             return;
         }
 
